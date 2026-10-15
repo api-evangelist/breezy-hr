@@ -1,0 +1,48 @@
+generated: '2026-10-15'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://developer.breezy.hr/reference/changelog
+sources:
+- https://developer.breezy.hr/reference/changelog
+entries:
+- breaking: false
+  highlights:
+  - 61 documented operations updated across Auth, Health, User, Companies, Positions, Candidates, and Webhooks
+  - Request/response schemas verified and updated from live traffic analysis
+  date: '2026-07-07'
+- breaking: false
+  highlights:
+  - '[NEW FEATURE] - Added cover_letter property on candidate add'
+  - '[NEW FEATURE] - Added cover_letter property on position update'
+  - '[NEW FEATURE] - Added disposition_date and disposition_reason on Candidate Model'
+- breaking: false
+  highlights:
+  - '[WEB HOOK] - Added external_source property to candidateAdded webhook'
+  - '[NEW FEATURE] - Added stage_actions_enabled query string param to execute stage actions when creating sourced candidates on a position'
+- breaking: false
+  highlights:
+  - '[DOC FIX] - Position Update was listed as POST, but is in fact a PUT'
+  - '[NEW FEATURE] - Retrieve candidate related custom attributes'
+  - '[NEW FEATURE] - Retrieve position related custom attributes'
+  - '[NEW FEATURE] - Added custom_attributes property on position add'
+  - '[NEW FEATURE] - Added custom_attributes property on position update'
+  - '[NEW FEATURE] - Added custom_attributes property on candidate add'
+  - '[NEW FEATURE] - Add custom_attributes to existing candidate'
+- breaking: false
+  highlights:
+  - '[NEW FEATURE] - Retrieve external candidate assessments'
+  - '[NEW FEATURE] - Retrieve external candidate background checks'
+- breaking: false
+  highlights:
+  - '[NEW FEATURE] - Move candidate to another position'
+- breaking: false
+  highlights:
+  - '[BUG FIX] - Check email address validity on add and update candidate'
+  - '[NEW FEATURE] - Update basic candidate profile fields ( ''name'', ''email_address'', ''phone_number'', ''summary'', ''source'', ''headline'',
+    ''tags'', ''address'', ''social_profiles'' )'
+  - '[NEW FEATURE] - Add work history to existing candidate'
+  - '[NEW FEATURE] - Add education history to existing candidate'
+  - '[ENHANCEMENT] - New allowed fields for candidate add ( ''address'', ''social_profiles'' )'
+current_version: '2026-07-07'
+note: Only entries listed on the page are included; entries without explicit dates have null date fields.
+docs: https://developer.breezy.hr/reference/changelog

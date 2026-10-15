@@ -1,0 +1,18 @@
+generated: '2026-10-15'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://developer.breezy.hr/reference/rate-limiting
+sources:
+- https://developer.breezy.hr/reference/rate-limiting
+name: Breezy HR rate limits
+limits:
+- name: default
+  limit_text: 100 requests to be performed
+  max: 100
+  window: 60 seconds
+headers:
+- X-RateLimit-Limit
+- X-RateLimit-Remaining
+- X-RateLimit-Reset
+exhaustion_status: 429
+docs: https://developer.breezy.hr/reference/rate-limiting

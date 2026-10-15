@@ -1,0 +1,25 @@
+generated: '2026-10-15'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://developer.breezy.hr/reference/authorization
+sources:
+- https://developer.breezy.hr/reference/authorization
+- https://help.breezy.hr/en/articles/13941514-multi-factor-authentication
+- https://developer.breezy.hr/reference/signin-1
+- https://developer.breezy.hr/reference/signin-1
+description: Breezy HR API authentication
+schemes:
+- type: apiKey
+  name: Personal Access Token
+  evidence: All requests (except /v3/signin and /v3/health) require an Authorization header.
+  location: header
+  header: Authorization
+  how_to_obtain: 'Create a PAT in the Breezy app: click your user icon → My Settings → API Keys tab → Create API Key, then copy the token.'
+- type: apiKey
+  name: Session Token
+  evidence: 'Obtain a session token by calling POST /v3/signin with your email and password. The returned access_token is used the same way:'
+  location: header
+  header: Authorization
+  how_to_obtain: POST https://api.breezy.hr/v3/signin with email and password to receive an access_token.
+note: Both methods use the Authorization header; no OAuth2 flows are documented.
+docs: https://developer.breezy.hr/reference/authorization

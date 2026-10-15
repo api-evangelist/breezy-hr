@@ -1,0 +1,26 @@
+generated: '2026-10-15'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://help.breezy.hr/en/articles/5554290-gdpr-overview
+sources:
+- https://help.breezy.hr/en/articles/5554290-gdpr-overview
+- https://help.breezy.hr/en/articles/5554303-gdpr-enabling-gdpr-features
+- https://help.breezy.hr/es/articles/5554303-gdpr-habilitar-funcionalidades-gdpr
+- https://help.breezy.hr/en/articles/5558054-gdpr-candidate-consent
+standards:
+- id: gdpr
+  conforms: true
+  evidence: Breezy has worked to ensure you are GDPR compliant while using your Breezy HR account.
+- id: openapi-3.1
+  conforms: true
+  evidence: the document declares 3.1.0
+- id: oauth2
+  conforms: false
+  evidence: 'securitySchemes: apiKey (apiKey)'
+- id: rfc9457
+  conforms: false
+  evidence: no response declares application/problem+json
+- id: idempotency
+  conforms: false
+  evidence: no idempotency key parameter on mutating operations
+docs: https://help.breezy.hr/en/articles/5554290-gdpr-overview

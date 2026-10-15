@@ -1,0 +1,27 @@
+# Breezy HR
+> Improve your entire hiring process with Breezy HR. Our applicant tracking system (ATS) helps you attract & hire quality employees in less time. 
+
+## Products - [Breezy HR ATS](https://breezy.hr/): End-to-end applicant tracking system that automates job posting to 50+ boards, streamlines candidate screening with drag-drop pipelines, and simplifies hiring with built-in offers and compliance tools 
+- [Breezy Intelligence](https://breezy.hr/p/breezy-intelligence): AI-powered hiring features that detect and block fake resumes, automatically score candidate fit, and generate interaction summaries to speed up decisions 
+- [Breezy Onboard](https://breezy.hr/onboard): Automated onboarding platform that guides new hires from offer acceptance to day one with role-based workflows and paperless document management 
+- [Breezy Perform](https://breezy.hr/perform): Performance management software for running review cycles, setting cascading goals, conducting 1:1s, and giving continuous feedback
+
+
+## Blog Content
+- [5 Sample Termination Letters From Employer to Employee](https://breezy.hr/blog/3-examples-of-termination-letters-done-right): Need to terminate an employee? Firing someone is never fun, but you can still keep it human. Use these free samples to write your next employee termination letter.
+- [EEO Categories, Explained: A Simplified Guide for Employers](https://breezy.hr/blog/eeo-categories):Confused about EEO categories? Get clear explanations of all 11 classifications, plus actionable tips to stay compliant with changing regulations.
+- [Is Your Next Hire AI-Savvy? Here's How to Actually Tell](https://breezy.hr/blog/ai-fluency-in-job-candidates): Looking for truly AI-fluent talent? Skip the buzzwords and discover proven strategies to assess candidates' real-world AI skills.
+- [20 Diversity Job Boards to Build Your Dream Team (+ Pricing Guide)](https://breezy.hr/blog/top-20-job-boards-diversity-hiring): Discover the best diversity job boards for your industry, complete with pricing and proven tips. Expand your candidate pool with these top 20 platforms.
+- [What Are the Best Phone Screen Interview Questions for Managers & Hiring Teams?](https://breezy.hr/blog/phone-screen-interview): Brief description of what this blog post covers and why it's useful
+- [Write Job Descriptions That Welcome Everyone: A Hiring Manager’s Guide to Inclusive Language](https://breezy.hr/blog/how-to-give-feedback-unsuccessful-candidates-will-appreciate-with-examples): Take phone screen interviews from awkward to awesome! Get sample questions and expert tips for finding top talent while keeping conversations natural and engaging.
+- [Write Job Descriptions That Welcome Everyone: A Hiring Manager’s Guide to Inclusive Language](https://breezy.hr/blog/3-simple-rules-for-using-inclusive-language-in-your-job-ads): Want to attract more diverse talent? Learn how to write truly inclusive job descriptions that make every qualified candidate feel welcome. Get practical tips and real examples to level up your hiring.
+- [Write A Vacation Policy That Works: 5 PTO Formats to Boost Usage and Cut Burnout](https://breezy.hr/blog/vacation-policy-for-small-businesses): The right vacation policy is great for employee retention and your employer brand. Check out these PTO policy examples to help give your people the time and space they need to recharge.
+- [7 Hiring Moves to Help You Snag the Best Seasonal Workers](https://breezy.hr/blog/hiring-seasonal-employees): Seasonal hiring doesn’t have to be chaotic. Learn 7 practical steps to hire seasonal employees quickly. Learn critical sourcing, screening, and training strategies – plus tips to keep it all organized.
+- [11 Ways to Get More Out of Your Recruitment Budget in 2026](https://breezy.hr/blog/recruitment-budget): Tight budget? Get 11 practical moves to reduce cost-per-hire, improve retention, and fill roles faster—referrals, mobility, branding, and more.
+
+## Company
+- [Bringing a Breath of Fresh HR to the recruiting SPACE](https://breezy.hr/about): Everyone should be this awesome! Our team works to delight yours, with hiring tools and applicant tracking to help your business grow.
+- [Pricing](https://breezy.hr/pricing): Breezy offers simple, flexible pricing perfect for small businesses and fast-growing companies. Learn more about the features on our monthly and annual plans.
+- [Integrations](https://breezy.hr/integrations): Build out your hiring toolkit by integrating industry-leading apps right where you need them. From email to HRIS, do it all right in Breezy!
+- [Customers](https://breezy.hr/customers): See how startups, small businesses & scaling companies with an eye for efficiency & ease use Breezy HR to organize their hiring processes around success.
+

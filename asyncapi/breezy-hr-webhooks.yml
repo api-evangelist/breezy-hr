@@ -1,0 +1,37 @@
+generated: '2026-10-15'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://developer.breezy.hr/reference/webhooks
+sources:
+- https://developer.breezy.hr/reference/webhooks
+- https://developer.breezy.hr/reference/webhook-events
+- https://developer.breezy.hr/reference/webhook-management-api
+- https://developer.breezy.hr/reference/webhook-security
+description: Breezy HR webhooks deliver real‑time notifications for candidate, position, and team note events.
+events:
+- event: candidateAdded
+  description: A candidate enters the system.
+- event: candidateDeleted
+  description: A candidate is deleted.
+- event: candidateStatusUpdated
+  description: A candidate moves to a different stage.
+- event: companyPositionAdded
+  description: A new position is created.
+- event: companyPositionUpdated
+  description: A position's details are updated.
+- event: companyPositionDeleted
+  description: A position is deleted.
+- event: companyPositionStateUpdated
+  description: A position's state changes (draft, published, etc.).
+- event: companyNotePosted
+  description: A team discussion note is posted.
+- event: companyNoteUpdated
+  description: A team discussion note is updated.
+- event: companyNoteDeleted
+  description: A team discussion note is deleted.
+delivery:
+  signature: HMAC-SHA256
+  retries: 10 attempts with exponential backoff (1s, 2s, 4s, 8s, 16s, 32s, then 60s up to attempt 10)
+  content_type: application/json
+note: Webhooks require HTTPS URLs and include an X-Hook-Signature header for verification.
+docs: https://developer.breezy.hr/reference/webhooks

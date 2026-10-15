@@ -1,23 +1,122 @@
 aid: breezy-hr
+
 name: Breezy HR
-description: 'Breezy HR is a company surfaced via the API Evangelist harvest backlog (source: tag-qc)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://cdn.prod.website-files.com/6127d83f257132e4fe0bddc6/679d163729b14e48b0984a3b_breezyhr-home.webp
+
+description: Breezy HR provides modern hiring software and an applicant tracking system designed to streamline recruitment. Their platform offers
+  tools for job advertising, candidate management, automated workflows, interview scheduling, offer management, and HRIS integrations. Breezy
+  HR aims to help companies attract, qualify, and hire talent efficiently, with analytics and reporting features to improve hiring outcomes.
+
 url: https://raw.githubusercontent.com/api-evangelist/breezy-hr/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:tag-qc
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-15 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-14'
+
 modified: '2026-10-14'
+
 tags:
-- Company
-apis: []
+- Hiring
+- ATS
+- Recruitment
+- SaaS
+- HRTech
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: RateLimits
+  url: rate-limits/breezy-hr-rate-limits.yml
+- type: Plans
+  url: plans/breezy-hr-plans-pricing.yml
+- type: Spectral
+  url: rules/breezy-hr-rules.yml
+- type: Webhooks
+  url: asyncapi/breezy-hr-webhooks.yml
+- type: ChangeLog
+  url: changelog/breezy-hr-changelog.yml
+- type: Compliance
+  url: https://ltgplc.com/trust-center/
+- type: Authentication
+  url: authentication/breezy-hr-authentication.yml
+- type: Conformance
+  url: conformance/breezy-hr-conformance.yml
+- type: LLMsTxt
+  url: llms/breezy-hr-llms.txt
+- type: SecurityTxt
+  url: well-known/breezy-hr-help-security.txt
+- type: WellKnown
+  url: well-known/breezy-hr-well-known.yml
+- type: Hosts
+  url: hosts/breezy-hr-hosts.yml
+- type: Vendors
+  url: vendors/breezy-hr-vendors.yml
+- type: TermsOfService
+  url: https://breezy.hr/policies/terms
+- type: Support
+  url: https://help.breezy.hr/en/
+- type: SignUp
+  url: https://breezy.hr/sign-up
+- type: PrivacyPolicy
+  url: https://breezy.hr/privacy
+- type: Pricing
+  url: https://breezy.hr/pricing
+- type: Leadership
+  url: https://breezy.hr/resources/interview-questions/leadership
+- type: Blog
+  url: https://breezy.hr/blog/hr-memes
+- type: GettingStarted
+  url: https://help.breezy.hr/en/articles/5578138-getting-started-with-breezy
+- type: Documentation
+  url: https://developer.breezy.hr/
+- type: TrustCenter
+  url: security/breezy-hr-trust-center.yml
+- type: DomainSecurity
+  url: security/breezy-hr-domain-security.yml
 - type: Website
   url: https://breezy.hr
+
+apis:
+- name: Breezy HR API
+  description: Breezy HR provides a hiring software API documented at the Guides page.
+  humanURL: https://breezy.hr/resources/guides
+  baseURL: null
+  aid: breezy-hr:breezy-hr-api-2
+- aid: breezy-hr:breezy-hr-api
+  name: Breezy HR API
+  description: 'Breezy HR API as documented publicly: 2 operations. Contract generated from the documentation by API Evangelist (2026-10-15);
+
+    not the provider''s own document.'
+  humanURL: https://developer.breezy.hr/reference/webhooks
+  baseURL: https://api.breezy.hr
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/breezy-hr-openapi-generated.yml
+    x-provenance: generated
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Guides page returns 403, preventing access to API documentation.
+  evidence:
+  - url: https://breezy.hr/resources/guides
+    status: 403
+  checked: '2026-10-15'
+x-enrichment:
+  date: '2026-10-15'
+  status: enriched
+  artifacts_added: 18
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

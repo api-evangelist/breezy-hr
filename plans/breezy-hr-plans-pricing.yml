@@ -1,0 +1,29 @@
+generated: '2026-10-15'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://breezy.hr/pricing
+sources:
+- https://breezy.hr/pricing
+- https://breezy.hr/blog/top-20-job-boards-diversity-hiring
+- https://help.breezy.hr/en/articles/5308310-payment-and-billing-details.md
+- https://help.breezy.hr/en/articles/9065454-what-is-breezy-s-bootstrap-plan.md
+name: Breezy HR pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Bootstrap
+  price_text: Free Forever
+  description: Free‑forever plan with unlimited users, 1 active position or pool, unlimited candidates (last 30 days), branded career site, distribution
+    to 50+ job boards, GDPR compliance, multi‑language support, resume parsing.
+- name: Startup
+  price_text: $157/mo $189/mo
+  description: Paid plan for small teams hiring regularly. Includes unlimited positions, background screening integrations, bulk candidate actions,
+    candidate automations, questionnaires, custom portal domain, customizable recruiting pipeline, EEOC/OFCCP reporting, email & calendar integration,
+    mobile apps, interview self‑scheduling, MFA, video screening, real‑time analytics, Slack integration, task management, video interviews, and
+    optional add‑ons.
+- name: Growth
+  price_text: $273/mo $329/mo
+  description: Most popular plan for scaling teams. Adds automated reference checking, customizable interview guides, scorecards, employee referrals,
+    electronic signatures, external recruiter support, messenger, internal positions, multiple locations per position, multiple recruiting pipelines,
+    plus all Startup features.
+docs: https://breezy.hr/pricing
