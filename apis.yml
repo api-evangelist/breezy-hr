@@ -94,18 +94,26 @@ apis:
   humanURL: https://breezy.hr/resources/guides
   baseURL: null
   aid: breezy-hr:breezy-hr-api-2
-- aid: breezy-hr:breezy-hr-api
-  name: Breezy HR API
-  description: 'Breezy HR API as documented publicly: 2 operations. Contract generated from the documentation by API Evangelist (2026-10-15);
-
-    not the provider''s own document.'
-  humanURL: https://developer.breezy.hr/reference/webhooks
+- aid: breezy-hr:breezy-hr-breezy-hr-api-api
+  name: Breezy HR Breezy HR API
+  description: The Breezy HR API API from Breezy HR — 1 operation(s) for breezy hr api.
+  humanURL: https://breezy.hr/resources/guides
   baseURL: https://api.breezy.hr
+  tags:
+  - Breezy HR API
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/breezy-hr-openapi-generated.yml
-    x-provenance: generated
-
+    url: openapi/breezy-hr-breezy-hr-api-api-openapi.yml
+- aid: breezy-hr:breezy-hr-sign-in-api
+  name: Breezy HR Sign In API
+  description: The Sign In API from Breezy HR — 1 operation(s) for sign in.
+  humanURL: https://breezy.hr/resources/guides
+  baseURL: https://api.breezy.hr
+  tags:
+  - Sign In
+  properties:
+  - type: OpenAPI
+    url: openapi/breezy-hr-sign-in-api-openapi.yml
 x-coverage:
   state: unreadable
   reason: js-rendered-docs

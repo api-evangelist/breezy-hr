@@ -1,0 +1,21 @@
+{
+  "provider": "breezy-hr",
+  "sources": [
+    "_ae-authored/breezy-hr-openapi-generated.yml"
+  ],
+  "outputs": [
+    "breezy-hr-breezy-hr-api-api-openapi.yml",
+    "breezy-hr-signin-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "breezy-hr-openapi-generated.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "breezy-hr-openapi-generated.yml: tagged paths GET /v3/{v3id} -> Breezy HR API",
+    "breezy-hr-openapi-generated.yml: declared missing tag: Breezy HR API",
+    "apis.yml register: written (+2 apis, 3 total)"
+  ],
+  "skipped": []
+}
