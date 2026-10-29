@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Breezy HR is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and added to the network as a stub for full-pipeline profiling.
-- https://breezy.hr
+Breezy HR provides modern hiring software and an applicant tracking system designed to streamline recruitment. Their platform offers tools for job advertising, candidate management, automated workflows, interview scheduling, offer management, and HRIS integrations. Breezy HR aims to help companies attract, qualify, and hire talent efficiently, with analytics and reporting features to improve hiring outcomes.
+
+**Areas:** Hiring · Applicant Tracking · Recruiting · Software-as-a-Service · Human Resources
+
+## Breezy HR on APIs.io
+
+Everything profiled for Breezy HR is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/breezy-hr/](https://apis.io/providers/breezy-hr/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Breezy HR API](https://apis.io/apis/breezy-hr/breezy-hr-api-2/) — Breezy HR provides a hiring software API documented at the Guides page.
+- [Breezy HR Breezy HR API](https://apis.io/apis/breezy-hr/breezy-hr-breezy-hr-api-api/) — The Breezy HR API API from Breezy HR — 1 operation(s) for breezy hr api.
+- [Breezy HR Sign In API](https://apis.io/apis/breezy-hr/breezy-hr-sign-in-api/) — The Sign In API from Breezy HR — 1 operation(s) for sign in.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Breezy Hr Webhooks](https://apis.io/asyncapis/breezy-hr/breezy-hr-webhooks/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Breezy HR API Rules](https://apis.io/rules/breezy-hr/breezy-hr-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Breezy Hr Authentication](https://apis.io/security/breezy-hr/breezy-hr-authentication/)
+- [Breezy Hr Domain Security](https://apis.io/security/breezy-hr/breezy-hr-domain-security/)
+- [Breezy Hr Trust Center](https://apis.io/security/breezy-hr/breezy-hr-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Breezy Hr Plans Pricing](https://apis.io/plans/breezy-hr/breezy-hr-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Breezy Hr Rate Limits](https://apis.io/rate-limits/breezy-hr/breezy-hr-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://breezy.hr)
+- [Documentation](https://developer.breezy.hr/)
+- [Getting started](https://help.breezy.hr/en/articles/5578138-getting-started-with-breezy)
+- [Pricing](https://breezy.hr/pricing)
+- [Sign up](https://breezy.hr/sign-up)
+- [Support](https://help.breezy.hr/en/)
+- [Blog](https://breezy.hr/blog/hr-memes)
+- [Compliance](https://ltgplc.com/trust-center/)
+- [Terms of service](https://breezy.hr/policies/terms)
+- [Privacy policy](https://breezy.hr/privacy)
+
+## API Evangelist rating
+
+**Kin Score 50.5** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 19.8 |
+| Contract governance | 31.8 |
+| Operational transparency | 55.3 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 92.1 |
+
+**Agent readiness 26.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 29.4** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/breezy-hr/](https://apis.io/providers/breezy-hr/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Breezy HR: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/breezy-hr/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
